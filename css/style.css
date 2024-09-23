@@ -184,7 +184,6 @@ header span,
 /* box tre */
 .box-tre {
   height: 400px;
-  background-color: green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +200,6 @@ header span,
 /* box quattro */
 .box-quattro {
   height: 400px;
-  background-color: gray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -226,14 +224,12 @@ header span,
 /* box cinque */
 .box-cinque {
   height: 800px;
-  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .inside-box-cinque {
-  background-color: aqua;
   width: 60%;
   height: 90%;
   display: flex;

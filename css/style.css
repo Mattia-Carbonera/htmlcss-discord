@@ -126,6 +126,7 @@ header span,
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: contain;
 }
 
 .inside-box-uno {

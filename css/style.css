@@ -36,6 +36,15 @@
   padding: 10px;
 } */
 
+/* ********GENERAL******** */
+
+.subsection-uno {
+  height: 80%;
+  width: 60%;
+}
+.subsection-uno img {
+}
+
 /* ________HEADER________ */
 
 header {
@@ -152,13 +161,18 @@ header span,
   height: 400px;
   width: 60%;
 }
-.subsection-uno {
-  height: 80%;
-  width: 60%;
-}
+
 .subsection-due {
   height: 80%;
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.subsection-due h2 {
+  margin-bottom: 10px;
 }
 
 /* box tre */
@@ -172,19 +186,10 @@ header span,
 .inside-box-tre {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: row-reverse;
   height: 400px;
   width: 60%;
-}
-.subsection-tre {
-  background-color: lightpink;
-  height: 80%;
-  width: 60%;
-}
-.subsection-tre {
-  background-color: blue;
-  height: 80%;
-  width: 40%;
 }
 
 /* box quattro */

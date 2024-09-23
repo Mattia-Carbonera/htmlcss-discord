@@ -125,7 +125,7 @@ header span,
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .inside-box-uno {
@@ -193,6 +193,8 @@ header span,
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-image: url("/img/wave.svg");
+  filter: blur(20px); */
 }
 .inside-box-tre {
   display: flex;
@@ -217,12 +219,10 @@ header span,
   width: 60%;
 }
 .subsection-quattro {
-  background-color: lightpink;
   height: 80%;
   width: 60%;
 }
 .subsection-quattro {
-  background-color: blue;
   height: 80%;
   width: 40%;
 }
@@ -259,8 +259,20 @@ header span,
   margin-right: 20px;
 }
 
+.backgrownd-text-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .backgrownd-text {
-  margin: 20px;
+  height: 60px;
+  width: 60%;
+  background-image: url("/img/stars.svg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* box sei */

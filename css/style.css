@@ -43,8 +43,17 @@
   width: 60%;
   display: flex;
 }
-.subsection-uno img {
+
+.subsection-uno img,
+.inside-box-cinque img {
   width: 100%;
+}
+
+.download-button {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 /* ________HEADER________ */
@@ -132,12 +141,6 @@ header span,
   font-weight: bold;
 }
 
-.inside-box-uno .download {
-  padding: 10px;
-  background-color: white;
-  border-radius: 20px;
-  margin-right: 20px;
-}
 .inside-box-uno .open-web {
   background-color: black;
   color: white;
@@ -232,6 +235,21 @@ header span,
   background-color: aqua;
   width: 60%;
   height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.inside-box-cinque h2,
+.inside-box-cinque p {
+  padding: 20px 60px;
+}
+
+/* end download section */
+
+.backgrownd-text {
+  margin: 20px;
 }
 
 /* box sei */

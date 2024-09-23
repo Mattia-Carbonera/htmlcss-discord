@@ -49,11 +49,8 @@
   width: 100%;
 }
 
-.download-button {
-  padding: 10px;
-  background-color: white;
-  border-radius: 20px;
-  margin-right: 20px;
+.site-color {
+  color: #7288da;
 }
 
 /* ________HEADER________ */
@@ -76,6 +73,7 @@ header span,
 .header-container {
   display: flex;
   width: 80%;
+  padding-top: 20px;
 }
 
 .hero {
@@ -103,6 +101,7 @@ header span,
   text-align: center;
   text-decoration: none;
   color: white;
+  font-size: small;
 }
 
 .login {
@@ -121,7 +120,7 @@ header span,
 /* ________MAIN________ */
 /* box uno */
 .box-uno {
-  height: 400px;
+  height: 300px;
   background-image: url("/img/jumbo.png");
   display: flex;
   align-items: center;
@@ -138,7 +137,7 @@ header span,
 
 .inside-box-uno p {
   display: block;
-  padding: 50px 0;
+  padding: 20px 0;
   font-weight: bold;
 }
 
@@ -147,6 +146,13 @@ header span,
   color: white;
   padding: 10px;
   border-radius: 20px;
+}
+
+.download-button-upper {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 .inside-box-uno .arrow {
@@ -245,6 +251,14 @@ header span,
 
 /* end download section */
 
+.download-button-down {
+  padding: 10px;
+  background-color: #7288da;
+  color: white;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
 .backgrownd-text {
   margin: 20px;
 }
@@ -264,15 +278,15 @@ header span,
 
 .box-sei {
   height: 400px;
-  background-color: red;
+  background-color: #23272a;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .inside-box-sei {
-  border-bottom: 2px solid green;
-  background-color: lightpink;
+  border-bottom: 2px solid #7288da;
   display: flex;
   height: 90%;
   width: 60%;
@@ -280,7 +294,6 @@ header span,
 }
 
 .box-sei .section-uno {
-  background-color: red;
   height: 100%;
   width: 30%;
   flex-grow: 1;
@@ -290,7 +303,6 @@ header span,
 .section-tre,
 .section-quattro,
 .section-cinque {
-  background-color: pink;
   height: 100%;
   width: 18%;
   flex-grow: 0;
@@ -303,12 +315,17 @@ header span,
 /* box sei - section uno */
 
 .box-sei h3 {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .lenguage {
   display: flex;
   padding: 30px 0;
+}
+
+.italian img {
+  height: 20px;
+  padding-right: 10px;
 }
 
 .lenguage span {
@@ -318,7 +335,7 @@ header span,
 /* ________FOOTER________ */
 
 footer {
-  background-color: brown;
+  background-color: #23272a;
   height: 80px;
   width: 100%;
   display: flex;
@@ -330,14 +347,12 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: green;
   height: 80%;
   width: 60%;
 }
 
 .logo-footer {
-  background-color: red;
-  height: 50%;
+  height: 20px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -345,7 +360,7 @@ footer {
 }
 
 .button-footer {
-  background-color: lightblue;
+  background-color: #7288da;
   color: white;
   height: 50%;
   padding: 10px;

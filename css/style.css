@@ -41,8 +41,10 @@
 .subsection-uno {
   height: 80%;
   width: 60%;
+  display: flex;
 }
 .subsection-uno img {
+  width: 100%;
 }
 
 /* ________HEADER________ */

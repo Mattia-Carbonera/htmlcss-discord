@@ -253,6 +253,18 @@ header span,
 }
 
 /* box sei */
+
+/* box sei - general__________________ */
+.list ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.list ul li {
+  padding: 5px;
+}
+/* ____________________________________ */
+
 .box-sei {
   height: 400px;
   background-color: red;
@@ -262,10 +274,12 @@ header span,
 }
 
 .inside-box-sei {
+  border-bottom: 2px solid green;
   background-color: lightpink;
   display: flex;
   height: 90%;
   width: 60%;
+  padding-bottom: 30px;
 }
 
 .box-sei .section-uno {
@@ -275,29 +289,33 @@ header span,
   flex-grow: 1;
 }
 
-.box-sei .section-due {
+.box-sei .section-due,
+.section-tre,
+.section-quattro,
+.section-cinque {
   background-color: pink;
   height: 100%;
-  flex-grow: 1;
-}
-.box-sei .section-tre {
-  background-color: lightgreen;
-  height: 100%;
-  flex-grow: 1;
-}
-.box-sei .section-quattro {
-  background-color: purple;
-  height: 100%;
-  flex-grow: 1;
-}
-.box-sei .section-cinque {
-  background-color: aqua;
-  height: 100%;
-  flex-grow: 1;
+  width: 18%;
+  flex-grow: 0;
 }
 
 .border {
   border: 2px dashed black;
+}
+
+/* box sei - section uno */
+
+.box-sei h3 {
+  font-size: 40px;
+}
+
+.lenguage {
+  display: flex;
+  padding: 30px 0;
+}
+
+.lenguage span {
+  font-size: larger;
 }
 
 /* ________FOOTER________ */
@@ -330,9 +348,11 @@ footer {
 }
 
 .button-footer {
-  background-color: aqua;
+  background-color: lightblue;
+  color: white;
   height: 50%;
   padding: 10px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
